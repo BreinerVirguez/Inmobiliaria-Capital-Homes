@@ -1,0 +1,294 @@
+.bg-sena {
+    background-color:#808080;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    color: #fff;
+}
+
+#nosotros{
+    width: 100%;
+    position: relative;
+    padding: 150px 0;
+}
+#nosotros img{
+    width: 500px;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#nosotros h1{
+    color: #2396bd;
+    padding-top: 50px;
+    font-size: -50px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    
+}
+
+#nosotros a{
+    padding: 14px 40px;
+    background: #2396bd;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    margin-top: 60px;
+    max-width: 200px;
+    transition: .5s;
+}
+#nosotros a:hover{
+    background: black;
+    border-radius: 50px;
+    max-width: 200px;
+    transform: scale(1);
+
+}
+#propiedades{
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+#propiedades h2{
+    color: #2396bd;
+    font-size: 36px;
+    border-bottom: 2px solid #2396bd;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+#propiedades .card-propiedad{
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    margin-bottom: 30px;
+    
+}
+#propiedades .card-propiedad::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(0, 0, 0, 0.137);
+    transition: .5s;
+}
+#propiedades .card-propiedad a{
+    color: #fff;
+    font-weight: 700px;
+    font-size: 26px;
+    text-decoration: none;
+    position: absolute;
+    z-index: 9;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 250px;
+    text-align: center;
+    transition: 1s;
+    border-radius: 8px;
+}
+#propiedades .card-propiedad:hover a{
+    background: #fff;
+    color: #0b5eb2;
+    bottom: 48%;
+}
+#propiedades .card-propiedad:hover::after{
+    background: rgba(6, 6, 90, 0.418);
+}
+
+#arriendo {
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+
+#arriendo h2 {
+    color: #113fd8;
+    font-size: 36px;
+    border-bottom: 2px solid #113fd8;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+#arriendo .card-arrendar {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#arriendo .card-arrendar::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(55, 9, 155, 0.137);
+    transition: .5s;
+}
+
+#arriendo .card-arrendar a {
+    color: #ffffff;
+    font-weight: 700px; 
+    font-size: 28px;
+    text-decoration: none;
+    position: absolute;
+    z-index: 10;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%); 
+    max-width: 250px;
+    text-align: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+#arriendo .card-arrendar:hover a {
+    background: #9305e6;
+    color: #ffffffd2;
+    bottom: 48%;
+}
+
+#arriendo .card-arrendar:hover::after {
+    background: rgba(6, 6, 90, 0.418);
+}
+#ventas {
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+
+#ventas h2 {
+    color: #540892;
+    font-size: 36px;
+    border-bottom: 2px solid #142ea1;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+#ventas .card-vendido {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#ventas .card-vendido::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(50, 18, 121, 0.137);
+    transition: .5s;
+}
+
+#ventas .card-vendido a {
+    color: #fff;
+    font-weight: 700px; 
+    font-size: 28px;
+    text-decoration: none;
+    position: absolute;
+    z-index: 10;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%); 
+    max-width: 250px;
+    text-align: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+#ventas .card-vendido:hover a {
+    background: #cf0c0c;
+    color: #ffffff;
+    bottom: 48%;
+}
+
+#ventas .card-vendido:hover::after {
+    background: rgba(6, 6, 90, 0.418);
+}
+#contacto{
+    width: 100%;
+    position: relative;
+    padding: 80px 0;
+}
+footer{
+    background: #808080;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+.two-column-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px; 
+    text-align: left;
+}
+#avaluos {
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+#avaluos h1 {
+color: #6b07ad;
+border-bottom: 2px solid #ffffff;
+display: inline-block;
+margin-bottom: 80px;
+}
+#avaluos h2 {
+    color: #0e0466;
+    font-size: 36px;
+}
+@keyframes scroll-text {
+    0% {
+        transform: translateX(-100%); 
+    }
+    100% {
+        transform: translateX(45%);
+    }
+}
+.footer-content {
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: scroll-text 25s linear infinite; 
+    width: 800%; 
+}
+.footer-text {
+    display: inline-block; 
+}
+
+
+
+  
+@keyframes text-slide {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+.nav-text {
+    animation: text-slide 1s alternate infinite; 
+}
+
+
+
